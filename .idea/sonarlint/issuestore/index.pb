@@ -13,7 +13,5 @@ i
 9app/src/main/java/andres/rangel/notesapp/ui/theme/Type.kt,6/a/6a6d1ffc9624262fec66e332a22dccddafb9dcee
 j
 :app/src/main/java/andres/rangel/notesapp/ui/theme/Color.kt,f/1/f13f3e43fb49b7f29e7aec22c9fec6287e221bf2
-†
-Vapp/src/main/java/andres/rangel/notesapp/feature_note/data/data_source/NoteDatabase.kt,3/a/3a8835d759802140ae87bdf0343e9f2b3b8a5d2d
 z
 Japp/src/main/java/andres/rangel/notesapp/feature_note/domain/model/Note.kt,e/d/ed94eef0c09f4f1d1831c1acaf2baeaa7766bad2
