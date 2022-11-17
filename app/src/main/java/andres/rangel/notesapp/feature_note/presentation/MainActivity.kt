@@ -1,4 +1,4 @@
-package andres.rangel.notesapp
+package andres.rangel.notesapp.feature_note.presentation
 
 import andres.rangel.notesapp.ui.theme.NotesAppTheme
 import android.os.Bundle
