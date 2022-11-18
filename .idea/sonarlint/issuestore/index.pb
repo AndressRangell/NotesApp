@@ -1,10 +1,6 @@
 
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 j
 :app/src/main/java/andres/rangel/notesapp/ui/theme/Shape.kt,b/9/b932c671e5b173156e96f2ce286e7070f5daa687
 j
@@ -13,3 +9,26 @@ i
 9app/src/main/java/andres/rangel/notesapp/ui/theme/Type.kt,6/a/6a6d1ffc9624262fec66e332a22dccddafb9dcee
 j
 :app/src/main/java/andres/rangel/notesapp/ui/theme/Color.kt,f/1/f13f3e43fb49b7f29e7aec22c9fec6287e221bf2
+Ç
+Rapp/src/main/java/andres/rangel/notesapp/feature_note/presentation/MainActivity.kt,e/6/e6c2422f8d5fb38284fac48dde21b80c679ba950
+â
+Yapp/src/main/java/andres/rangel/notesapp/feature_note/domain/repository/NoteRepository.kt,f/6/f69a4b8990a1cc3c3d1be0bb817bb0a37465a95c
+Å
+Qapp/src/main/java/andres/rangel/notesapp/feature_note/data/data_source/NoteDao.kt,f/7/f756aa1e428eff9fd2ecab7127fc24caf3d47e3f
+>
+app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+~
+Napp/src/main/java/andres/rangel/notesapp/feature_note/domain/util/OrderType.kt,7/9/79a7ae1083233f5fb8532c9533b706ce73fbbf61
+Å
+Qapp/src/main/java/andres/rangel/notesapp/feature_note/domain/use_case/GetNotes.kt,9/1/913ffc5ec521a7024dfbb0571e459d1d66c4af2b
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+c
+3app/src/main/java/andres/rangel/notesapp/NoteApp.kt,7/d/7d7163a00476235ea19f8afac17722ffbdb22566
+z
+Japp/src/main/java/andres/rangel/notesapp/feature_note/domain/model/Note.kt,e/d/ed94eef0c09f4f1d1831c1acaf2baeaa7766bad2
+Ä
+Papp/src/main/java/andres/rangel/notesapp/feature_note/domain/use_case/AddNote.kt,6/d/6db09f53065ce7e3d1a7c8939d4ee6e7f7f65105
