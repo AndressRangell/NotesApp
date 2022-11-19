@@ -2,6 +2,7 @@ package andres.rangel.notesapp.feature_note.presentation.notes
 
 import andres.rangel.notesapp.feature_note.presentation.notes.components.NoteItem
 import andres.rangel.notesapp.feature_note.presentation.notes.components.OrderSection
+import andres.rangel.notesapp.feature_note.presentation.util.Screen
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.fadeIn
@@ -53,7 +54,7 @@ fun NotesScreen(
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
-
+                    navController.navigate(Screen.AddEditNoteScreen.route)
                 },
                 backgroundColor = MaterialTheme.colors.primary
             ) {
@@ -75,7 +76,7 @@ fun NotesScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = "Your note",
+                    text = "Your notes",
                     style = MaterialTheme.typography.h4
                 )
                 IconButton(
@@ -112,7 +113,10 @@ fun NotesScreen(
                         modifier = Modifier
                             .fillMaxWidth()
                             .clickable {
-
+                                navController.navigate(
+                                    Screen.AddEditNoteScreen.route +
+                                            "?noteId=${note.id}&noteColor=${note.color}"
+                                )
                             },
                         onDeleteClick = {
                             viewModel.onEvent(NotesEvent.DeleteNote(note))

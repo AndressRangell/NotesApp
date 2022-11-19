@@ -1,5 +1,6 @@
 package andres.rangel.notesapp.feature_note.presentation.add_edit_note.components
 
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.Text
@@ -21,22 +22,22 @@ fun TransparentHintTextField(
     singleLine: Boolean = false,
     onFocusChange: (FocusState) -> Unit
 ) {
-    BasicTextField(
-        value = text,
-        onValueChange = onValueChange,
-        singleLine = singleLine,
-        textStyle = textStyle,
+    Box(
         modifier = modifier
-            .fillMaxWidth()
-            .onFocusChanged {
-                onFocusChange(it)
-            }
-    )
-    if (isHintVisible) {
-        Text(
-            text = hint,
-            style = textStyle,
-            color = Color.DarkGray
+    ) {
+        BasicTextField(
+            value = text,
+            onValueChange = onValueChange,
+            singleLine = singleLine,
+            textStyle = textStyle,
+            modifier = Modifier
+                .fillMaxWidth()
+                .onFocusChanged {
+                    onFocusChange(it)
+                }
         )
+        if(isHintVisible) {
+            Text(text = hint, style = textStyle, color = Color.DarkGray)
+        }
     }
 }

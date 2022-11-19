@@ -157,7 +157,6 @@ fun AddEditNoteScreen(
                     viewModel.onEvent(AddEditNoteEvent.ChangeContentFocus(it))
                 },
                 isHintVisible = contentState.inHintVisible,
-                singleLine = true,
                 textStyle = MaterialTheme.typography.body1,
                 modifier = Modifier.fillMaxHeight()
             )

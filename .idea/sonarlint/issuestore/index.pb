@@ -9,8 +9,6 @@ i
 9app/src/main/java/andres/rangel/notesapp/ui/theme/Type.kt,6/a/6a6d1ffc9624262fec66e332a22dccddafb9dcee
 j
 :app/src/main/java/andres/rangel/notesapp/ui/theme/Color.kt,f/1/f13f3e43fb49b7f29e7aec22c9fec6287e221bf2
-Ç
-Rapp/src/main/java/andres/rangel/notesapp/feature_note/presentation/MainActivity.kt,e/6/e6c2422f8d5fb38284fac48dde21b80c679ba950
 â
 Yapp/src/main/java/andres/rangel/notesapp/feature_note/domain/repository/NoteRepository.kt,f/6/f69a4b8990a1cc3c3d1be0bb817bb0a37465a95c
 Å
@@ -28,8 +26,6 @@ P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 c
 3app/src/main/java/andres/rangel/notesapp/NoteApp.kt,7/d/7d7163a00476235ea19f8afac17722ffbdb22566
-z
-Japp/src/main/java/andres/rangel/notesapp/feature_note/domain/model/Note.kt,e/d/ed94eef0c09f4f1d1831c1acaf2baeaa7766bad2
 Ä
 Papp/src/main/java/andres/rangel/notesapp/feature_note/domain/use_case/AddNote.kt,6/d/6db09f53065ce7e3d1a7c8939d4ee6e7f7f65105
 ã
@@ -44,8 +40,6 @@ Napp/src/main/java/andres/rangel/notesapp/feature_note/domain/util/NoteOrder.kt
 Vapp/src/main/java/andres/rangel/notesapp/feature_note/data/data_source/NoteDatabase.kt,3/a/3a8835d759802140ae87bdf0343e9f2b3b8a5d2d
 Ü
 Vapp/src/main/java/andres/rangel/notesapp/feature_note/presentation/notes/NotesState.kt,2/e/2ec438c302f3d22085a008763611d16dd221a065
-ñ
-fapp/src/main/java/andres/rangel/notesapp/feature_note/presentation/add_edit_note/NoteTextFieldState.kt,6/9/690324ecebeabbddb34af4de811455ca7e607852
 Ö
 Uapp/src/main/java/andres/rangel/notesapp/feature_note/domain/use_case/NoteUseCases.kt,c/e/ce9d0e0e7a47b9992cc13bc2b3385d35eb861a89
 h

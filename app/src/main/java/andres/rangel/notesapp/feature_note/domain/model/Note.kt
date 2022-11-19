@@ -5,8 +5,10 @@ import andres.rangel.notesapp.ui.theme.LightGreen
 import andres.rangel.notesapp.ui.theme.RedOrange
 import andres.rangel.notesapp.ui.theme.RedPink
 import andres.rangel.notesapp.ui.theme.Violet
+import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+@Entity
 data class Note(
     val title: String,
     val content: String,
