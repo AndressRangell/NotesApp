@@ -40,3 +40,13 @@ Sapp/src/main/java/andres/rangel/notesapp/feature_note/domain/use_case/DeleteNot
 Napp/src/main/java/andres/rangel/notesapp/feature_note/domain/util/NoteOrder.kt,0/7/07f8186a58415c9c75417f555de665767ea971d9
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+†
+Vapp/src/main/java/andres/rangel/notesapp/feature_note/data/data_source/NoteDatabase.kt,3/a/3a8835d759802140ae87bdf0343e9f2b3b8a5d2d
+†
+Vapp/src/main/java/andres/rangel/notesapp/feature_note/presentation/notes/NotesState.kt,2/e/2ec438c302f3d22085a008763611d16dd221a065
+–
+fapp/src/main/java/andres/rangel/notesapp/feature_note/presentation/add_edit_note/NoteTextFieldState.kt,6/9/690324ecebeabbddb34af4de811455ca7e607852
+…
+Uapp/src/main/java/andres/rangel/notesapp/feature_note/domain/use_case/NoteUseCases.kt,c/e/ce9d0e0e7a47b9992cc13bc2b3385d35eb861a89
+h
+8app/src/main/java/andres/rangel/notesapp/di/AppModule.kt,5/8/58f4fed3678fe57ec7f1db3121bf079d7a5e4519
